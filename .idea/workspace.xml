@@ -30,6 +30,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IntergerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntergerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -49,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/pg62.java" />
         <option value="$PROJECT_DIR$/src/Datademo.java" />
         <option value="$PROJECT_DIR$/src/DataDemo.java" />
+        <option value="$PROJECT_DIR$/src/IntergerDemo.java" />
       </list>
     </option>
   </component>
@@ -95,9 +105,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataDemo">
+  <component name="RunManager" selected="Application.IntergerDemo">
     <configuration name="DataDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataDemo" />
+      <module name="Chapter 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="IntergerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntergerDemo" />
       <module name="Chapter 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -150,9 +165,11 @@
     <list>
       <item itemvalue="Application.MathPractice" />
       <item itemvalue="Application.DataDemo" />
+      <item itemvalue="Application.IntergerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntergerDemo" />
         <item itemvalue="Application.DataDemo" />
         <item itemvalue="Application.MathPractice" />
       </list>
@@ -218,6 +235,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntergerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

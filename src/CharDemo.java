@@ -4,6 +4,6 @@ public class CharDemo {
         char initial ='A';
         System.out.println(initial);
         System.out.println("\t\"abc\\def\\bgh\\n\njkl");
-        
+
     }
 }

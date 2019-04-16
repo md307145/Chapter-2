@@ -6,21 +6,21 @@ public class Eggs {
         double numberOfDozenEggs;
         double numberOfIndividualEggs;
         double TOTAL_COST_FOR_EGGS;
-        double TOTAL_COST_FOR_DOZEN_EGGS=3.25;
-        double TOTAl_COST_FOR_SINGLE_EGG=.45;
+        double TOTAL_COST_FOR_DOZEN_EGGS;
+        double TOTAl_COST_FOR_SINGLE_EGG;
 
         System.out.println("how many dozens of eggs");
         numberOfDozenEggs=keyboard.nextDouble();
 
         System.out.println("how many single eggs");
         numberOfIndividualEggs=keyboard.nextDouble();
+        TOTAL_COST_FOR_DOZEN_EGGS=3.25* numberOfDozenEggs;
+        TOTAl_COST_FOR_SINGLE_EGG=.45 *numberOfIndividualEggs;
 
         TOTAL_COST_FOR_EGGS= TOTAL_COST_FOR_DOZEN_EGGS+TOTAl_COST_FOR_SINGLE_EGG;
-        TOTAl_COST_FOR_SINGLE_EGG=numberOfIndividualEggs*TOTAl_COST_FOR_SINGLE_EGG;
-        TOTAL_COST_FOR_DOZEN_EGGS=numberOfDozenEggs*TOTAL_COST_FOR_DOZEN_EGGS;
-        System.out.println("The cost for "+ numberOfDozenEggs+"Dozen is "+ TOTAL_COST_FOR_DOZEN_EGGS+", the cost for " +
-                ", the cost for" +);
 
+        System.out.println("The Total is " + TOTAL_COST_FOR_EGGS+ ", in " + TOTAL_COST_FOR_DOZEN_EGGS + " Dozen and \n" +
+                " "+ numberOfIndividualEggs+ " eggs.");
 
 
 

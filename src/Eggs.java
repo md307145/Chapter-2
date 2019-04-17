@@ -19,7 +19,7 @@ public class Eggs {
 
         TOTAL_COST_FOR_EGGS= TOTAL_COST_FOR_DOZEN_EGGS+TOTAl_COST_FOR_SINGLE_EGG;
 
-        System.out.println("The Total is " + TOTAL_COST_FOR_EGGS+ ", in " + TOTAL_COST_FOR_DOZEN_EGGS + " Dozen and \n" +
+        System.out.println("The Total is $" + TOTAL_COST_FOR_EGGS+ ", in " + TOTAL_COST_FOR_DOZEN_EGGS + " Dozen and \n" +
                 " "+ numberOfIndividualEggs+ " eggs.");
 
 

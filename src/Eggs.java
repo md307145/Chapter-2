@@ -4,7 +4,7 @@ public class Eggs {
     public static void main(String [] args){
         Scanner keyboard = new Scanner(System.in);
         double numberOfDozenEggs;
-        double numberOfIndividualEggs;
+        int numberOfIndividualEggs;
         double TOTAL_COST_FOR_EGGS;
         double TOTAL_COST_FOR_DOZEN_EGGS;
         double TOTAl_COST_FOR_SINGLE_EGG;
@@ -13,7 +13,7 @@ public class Eggs {
         numberOfDozenEggs=keyboard.nextDouble();
 
         System.out.println("how many single eggs");
-        numberOfIndividualEggs=keyboard.nextDouble();
+        numberOfIndividualEggs=keyboard.nextInt();
         TOTAL_COST_FOR_DOZEN_EGGS=3.25* numberOfDozenEggs;
         TOTAl_COST_FOR_SINGLE_EGG=.45 *numberOfIndividualEggs;
 

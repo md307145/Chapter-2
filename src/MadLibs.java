@@ -36,7 +36,7 @@ public class MadLibs {
 
         c=a+b;
         JOptionPane.showMessageDialog(null, "The " + color + "Dragon is the " + wordEST +
-        "the dragon of all. It has "+c + bodyPartPlural + ", and a " + animal + "shaped like a " + noun + ". \n" +
+        " dragon of all. It has "+c + bodyPartPlural + ", and a " + animal + "shaped like a " + noun + ". \n" +
                 " It loves to eat " + pluralNoun + ", although it will feast on nearly anything.");
 
 
